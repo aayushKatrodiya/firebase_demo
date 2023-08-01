@@ -20,6 +20,7 @@ class _LoginPageUiState extends State<LoginPageUi> {
 
   @override
   Widget build(BuildContext context) {
+    int count = 0;
     return Scaffold(
       body: Column(
         children: [
